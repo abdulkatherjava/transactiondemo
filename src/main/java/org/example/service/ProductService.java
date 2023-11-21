@@ -16,9 +16,9 @@ public class ProductService {
               Product product = new Product();
               product.setName("test" + i);
               productRepository.saveProduct(product);
-              if ( i == 7 ) {
-                  throw new RuntimeException("Something went wrong");
-              }
+//              if ( i == 7 ) {
+//                  throw new RuntimeException("Something went wrong");
+//              }
           }
     }
 }
